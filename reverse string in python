@@ -1,0 +1,15 @@
+def reversed_string(x):
+    return x[::-1]
+    
+def wreverse(x):
+    return ' '.join(y[::-1] for y in x.split())
+    
+def w1reverse(x):
+    return x[::-1];
+
+input_string = "Hello World Java"
+print(input_string)
+print(reversed_string(input_string))
+k=wreverse(input_string)
+print(k)
+print(w1reverse(k))# Output: "Java World Hello"
